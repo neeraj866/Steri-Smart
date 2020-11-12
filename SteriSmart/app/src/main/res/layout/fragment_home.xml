@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/log_management"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/log_management"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/app_name"
+            app:layout_constraintStart_toStartOf="@id/app_name"
+            app:layout_constraintTop_toBottomOf="@id/app_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/packaging_labeling"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/packaging_labeling"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/packaging_amp_labeling"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/autoclave"
+        app:layout_constraintEnd_toStartOf="@id/sterilization"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_layout" />
+
+    <TextView
+        android:id="@+id/sterilization"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/sterilization"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/sterilization_process"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/packages"
+        app:layout_constraintEnd_toStartOf="@id/b_i_test"
+        app:layout_constraintStart_toEndOf="@id/packaging_labeling"
+        app:layout_constraintTop_toBottomOf="@id/top_layout" />
+
+    <TextView
+        android:id="@+id/b_i_test"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/biological_indicator"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/b_i_test"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/operators"
+        app:layout_constraintEnd_toStartOf="@id/reporting"
+        app:layout_constraintStart_toEndOf="@id/sterilization"
+        app:layout_constraintTop_toBottomOf="@id/top_layout" />
+
+    <TextView
+        android:id="@+id/reporting"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/reporting"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/reporting"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/b_i_test"
+        app:layout_constraintTop_toBottomOf="@id/top_layout" />
+
+    <TextView
+        android:id="@+id/autoclave"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/autoclave"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/autoclave_setup"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/packages"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/packaging_labeling" />
+
+    <TextView
+        android:id="@+id/packages"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/ic_package"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/packages_setup"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/operators"
+        app:layout_constraintStart_toEndOf="@id/autoclave"
+        app:layout_constraintTop_toBottomOf="@id/sterilization" />
+
+    <TextView
+        android:id="@+id/operators"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/operators"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/operators"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/settings"
+        app:layout_constraintStart_toEndOf="@id/packages"
+        app:layout_constraintTop_toBottomOf="@id/b_i_test" />
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/settings"
+        android:gravity="bottom|center_horizontal"
+        android:padding="50dp"
+        android:text="@string/settings"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/operators"
+        app:layout_constraintTop_toBottomOf="@id/reporting" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

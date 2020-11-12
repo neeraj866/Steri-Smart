@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_bg"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/data_reset_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_reset"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/data_reset_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/data_reset_instructions"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/data_reset_title" />
+
+        <Button
+            android:id="@+id/restore_data"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button_background_red"
+            android:padding="20dp"
+            android:text="@string/reset_data"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/data_reset_instructions" />
+
+        <TextView
+            android:id="@+id/date_data_reset_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/data_reset_by_date"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/restore_data" />
+
+        <TextView
+            android:id="@+id/select_start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_start_date"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@id/start_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/start_date" />
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom_line"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:minWidth="300dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            app:layout_constraintStart_toEndOf="@id/select_start_date"
+            app:layout_constraintTop_toBottomOf="@id/date_data_reset_title" />
+
+        <TextView
+            android:id="@+id/select_end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_end_date"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@id/end_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/end_date" />
+
+        <TextView
+            android:id="@+id/end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom_line"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:minWidth="300dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            app:layout_constraintStart_toEndOf="@id/select_start_date"
+            app:layout_constraintTop_toBottomOf="@id/start_date" />
+
+        <TextView
+            android:id="@+id/date_data_reset_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/date_data_reset_instructions"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/end_date" />
+
+        <Button
+            android:id="@+id/date_data_reset"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button_background_red"
+            android:padding="20dp"
+            android:text="@string/date_data_reset"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/date_data_reset_instructions" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

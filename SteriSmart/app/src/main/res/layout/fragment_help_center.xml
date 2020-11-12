@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg">
+
+    <Button
+        android:id="@+id/help"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@id/training"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/training"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangular_button_background_grey"
+        android:text="@string/training"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@id/documentation"
+        app:layout_constraintStart_toEndOf="@id/help"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/documentation"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangular_button_background_grey"
+        android:text="@string/documentation"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@id/manual_button"
+        app:layout_constraintStart_toEndOf="@id/training"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/manual_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangular_button_background_grey"
+        android:text="@string/manual"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/documentation"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/help_center_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/help" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

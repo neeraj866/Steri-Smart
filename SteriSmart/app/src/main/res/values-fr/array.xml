@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cleaning_methods">
+        <item>Dental Washer</item>
+        <item>Hydrim</item>
+        <item>Manual</item>
+        <item>Ultrasonic</item>
+    </string-array>
+
+    <string-array name="barcode_types">
+        <item>Unwrapped</item>
+        <item>Wrapped</item>
+        <item>Cassette</item>
+        <item>Handpieces</item>
+        <item>Pack</item>
+        <item>Pouche</item>
+        <item>Special 1</item>
+        <item>Special 2</item>
+    </string-array>
+
+    <string-array name="operators">
+        <item>John Doe</item>
+        <item>Mary Jane</item>
+    </string-array>
+    <string-array name="autoclave">
+        <item>Midmark</item>
+        <item>Smartclave</item>
+    </string-array>
+    <string-array name="result">
+        <item>Pass</item>
+        <item>Fail</item>
+    </string-array>
+    <string-array name="documentation">
+        <item>infection prevention and control(IPAC) Guidelines</item>
+        <item>IPAC Checklist for Dental Practice Core Elements</item>
+        <item>IPAC Checklist for Dental Practice Reporting/Dental Medical Equipment/Devices
+        </item>
+        <item>The Facts About Reprocessing</item>
+        <item>Infection Prevention and Control February 20, 2018</item>
+        <item>IPAC Lapses - Frequently Asked Questions</item>
+        <item>Operating Theatre Quality and Prevention Of Surgical Site Infection</item>
+        <item>(PIDAC) Best practices for Cleaning, Disinfection and Sterilization of Medical
+            Equipment/Devices in All Health Care Settings
+        </item>
+        <item>(RCDSO) How to Use Chemical Indicators, Biological Indicators and Process Challenges
+            Devices to Monitor Sterilization
+        </item>
+        <item>(RCDSO) Steps to Investigate a Positive Biological Indicator (I.E Failed Spore)</item>
+        <item>(RCDSO) Potential Causes of a Positive Biological Indicator</item>
+        <item>(RCDSO) Infection Prevention and Control in the Dental Office - Standard of Practice
+        </item>
+        <item>(RCDSO) Infection Prevention and Control in the Dental Office - Guidelines
+        </item>
+    </string-array>
+    <string-array name="home_menus">
+        <item>STÉRILISATION</item>>
+        <item>B.I.TEST</item>>
+        <item>RAPPORTS</item>>
+        <item>ADMINISTRATRICE</item>>
+        <item>CENTRE D\'AIDE</item>>
+        <item>À PROPOS DE NOUS</item>>
+        <item>CHANGER DE LANGUE</item>>
+        <item>SE DÉCONNECTER</item>>
+    </string-array>
+
+    <string-array name="admin_menus">
+        <item>CONFIGURATION DU BUREAU</item>
+        <item>INFO LICENCE</item>>
+        <item>CONFIGURATION AUTOCLAVE</item>>
+        <item>CONFIGURATION DE L\'OPÉRATEUR</item>>
+        <item>GÉRER LE FORFAIT</item>>
+        <item>RÉINITIALISER LES DONNÉES</item>>
+        <item>AUDIT</item>>
+        <item>CENTRE D\'AIDE</item>>
+        <item>À PROPOS DE NOUS</item>>
+        <item>SORTIE</item>>
+    </string-array>
+
+    <string-array name="country">
+        <item>Canada</item>
+    </string-array>
+    <string-array name="province">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+    </string-array>
+    <string-array name="instruments">
+        <item>Blades</item>
+        <item>Burnisher</item>
+        <item>Burs</item>
+        <item>Calipers</item>
+        <item>Curettes</item>
+        <item>Cutters</item>
+        <item>Carver</item>
+        <item>Condenser</item>
+        <item>Cord Packers</item>
+        <item>Crown Seaters</item>
+        <item>Drill bits</item>
+        <item>Dental Needles</item>
+        <item>Elevators</item>
+        <item>Etchers</item>
+        <item>Excavator</item>
+        <item>Explorer</item>
+        <item>Extracting Instrument</item>
+        <item>Extraction Forceps</item>
+        <item>Files</item>
+        <item>Forceps</item>
+        <item>Fracture Detectors</item>
+        <item>Gracey</item>
+        <item>Handpiece</item>
+        <item>Impresstion trays</item>
+        <item>Micromotors</item>
+        <item>Mirror</item>
+        <item>Mouth Props</item>
+        <item>MTA Applicators</item>
+        <item>Needle Holders</item>
+        <item>Periotome Instruments</item>
+        <item>Pliers</item>
+        <item>Probe</item>
+        <item>Resin Forming Instruments</item>
+        <item>Retainers</item>
+        <item>Retractor Instrument</item>
+        <item>Retractors</item>
+        <item>Root Extractors</item>
+        <item>Scale</item>
+        <item>Scaler</item>
+        <item>Scalpels</item>
+        <item>Steel Rim Lock</item>
+        <item>Surgical Scissor</item>
+        <item>Syringe</item>
+        <item>Ultrasonic Tips</item>
+    </string-array>
+
+    <string-array name="temperature_unit">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="pressure_unit">
+        <item>PSI</item>
+        <item>KPA</item>
+    </string-array>
+
+    <string-array name="autoclave_type">
+        <item>Regular</item>
+        <item>Class B</item>
+    </string-array>
+
+    <string-array name="autoclave_manufacturer">
+        <item>Flight Dental</item>
+        <item>Masteri</item>
+        <item>Midmark</item>
+        <item>Ritter</item>
+        <item>Scican</item>
+        <item>Tuttnauer</item>
+        <item>W&amp;H Lisa</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="scican_models">
+        <item>Bravo</item>
+        <item>Statclave G4</item>
+        <item>Statim 2000</item>
+        <item>Statim 5000</item>
+        <item>Statim 7000</item>
+        <item>Statim G4 2000</item>
+        <item>Statim G4 5000</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="midmark_models">
+        <item>M9 (Red Display)</item>
+        <item>M9 (Green Display)</item>
+        <item>M9 (3rd Gen-2020)</item>
+        <item>M11 (Red Display)</item>
+        <item>M11(Green Display)</item>
+        <item>M11 (3rd Gen-2020)</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="ritter_models">
+        <item>M9</item>
+        <item>M11</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="w_and_h_lisa_models">
+        <item>Lina</item>
+        <item>Lisa</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="flight_dental_models">
+        <item>Clave 16+</item>
+        <item>Clave 23+</item>
+        <item>Clave B</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="masteri_models">
+        <item>16</item>
+        <item>23</item>
+        <item>Fast</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="tuttnauer_models">
+        <item>1730 E/EK</item>
+        <item>1730 M/MK/MKV</item>
+        <item>2340 E/EA/EK/EKA</item>
+        <item>2340 M/MK</item>
+        <item>2540 E/EA/EK/EKA</item>
+        <item>2540 EHS</item>
+        <item>2540 ELV</item>
+        <item>2540 M/MK</item>
+        <item>3870 E/EA</item>
+        <item>3870 E/EA/EHS</item>
+        <item>3870 M</item>
+        <item>Elara 11</item>
+        <item>EZ9</item>
+        <item>EZ9 Plus</item>
+        <item>EZ10</item>
+        <item>EZ10K</item>
+        <item>EZ11 Plus</item>
+        <item>Tvet 9M</item>
+        <item>Tvet 10E</item>
+        <item>Tvet 10M</item>
+        <item>Tvet 11E</item>
+        <item>Valueklave 1730</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="other">
+        <item>Other</item>
+    </string-array>
+
+</resources>

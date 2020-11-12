@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E8DC8</color>
+    <color name="colorPrimaryDark">#1E8DC8</color>
+    <color name="colorAccent">#1E8DC8</color>
+    <color name="pink">#D81B60</color>
+    <color name="light_bg">#ffffff</color>
+    <color name="light_blue">#e0f9f6</color>
+    <color name="dark_blue">#0000ff</color>
+    <color name="light_grey">#40009688</color>
+    <color name="light_blue_report">#f0f8ff</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_green">#1C800B</color>
+    <color name="light_green">#009688</color>
+    <color name="light_red">#B68599</color>
+    <color name="red">#CC2323</color>
+    <color name="grey">#DDE5E7</color>
+    <color name="dark_red">#1E8DC8</color>
+    <color name="title_green">#ff93e397</color>
+    <color name="yellow">#D6FAED</color>
+    <color name="selector">#70D5BB</color>
+    <color name="blue_text">#4B88BF</color>
+    <color name="pass">#A9D08E</color>
+</resources>
